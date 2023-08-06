@@ -279,4 +279,6 @@ def get_profile():
         return jsonify({"msg": "user do not exist"}), 404
     return jsonify(logged_in_as=current_user), 200
 
+# --------------------
+
 # --- FIN ENDPOINTS ---
